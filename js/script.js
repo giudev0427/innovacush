@@ -12,7 +12,7 @@ const SOCIAL_LINKS = {
   tiktok: "https://www.tiktok.com/@innovacush8"
 };
 
-const WHATSAPP_NUMBER = "51924453134";
+const WHATSAPP_NUMBER = "51925453134";
 
 /* --------------------------- Enlaces de redes --------------------------- */
 document.querySelectorAll("[data-social]").forEach(function (anchor) {
