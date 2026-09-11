@@ -461,6 +461,7 @@
 
   <!-- ============================ FOOTER ============================ -->
   <footer class="footer">
+    <div class="footer__accent" aria-hidden="true"></div>
     <div class="container footer__grid">
       <div class="footer__brand">
         <img src="images/logo-innovacush.jpg" alt="Logo de INNOVACUSH" class="footer__logo" loading="lazy" width="150" height="150">
@@ -468,7 +469,7 @@
       </div>
 
       <nav class="footer__col" aria-label="Navegación del pie de página">
-        <h3>Navegación</h3>
+        <h3 class="footer__title">Navegación</h3>
         <ul>
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#productos">Productos</a></li>
@@ -479,16 +480,16 @@
       </nav>
 
       <div class="footer__col">
-        <h3>Síguenos</h3>
-        <ul>
-          <li><a href="#" data-social="facebook" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-          <li><a href="#" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-          <li><a href="#" data-social="tiktok" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+        <h3 class="footer__title">Síguenos</h3>
+        <ul class="footer__social">
+          <li><a href="#" data-social="facebook" target="_blank" rel="noopener noreferrer" class="footer__social-link"><span aria-hidden="true">Facebook</span></a></li>
+          <li><a href="#" data-social="instagram" target="_blank" rel="noopener noreferrer" class="footer__social-link"><span aria-hidden="true">Instagram</span></a></li>
+          <li><a href="#" data-social="tiktok" target="_blank" rel="noopener noreferrer" class="footer__social-link"><span aria-hidden="true">TikTok</span></a></li>
         </ul>
       </div>
 
       <div class="footer__col">
-        <h3>Contacto</h3>
+        <h3 class="footer__title">Contacto</h3>
         <ul class="footer__contacto">
           <li>
             <span>WhatsApp</span>
@@ -504,8 +505,14 @@
     </div>
 
     <div class="footer__bottom">
-      <div class="container">
-        <p>© 2026 INNOVACUSH. Todos los derechos reservados.</p>
+      <div class="container footer__bottom-grid">
+        <p class="footer__copy">© 2026 INNOVACUSH. Todos los derechos reservados.</p>
+
+        <div class="footer__credit">
+          <p class="footer__credit-text">Web desarrollada por <strong>GIUDEV</strong></p>
+          <p class="footer__credit-question">¿Necesitas una página web?</p>
+          <a href="mailto:giudev0427@gmail.com" class="footer__cta">Contáctame</a>
+        </div>
       </div>
     </div>
   </footer>
